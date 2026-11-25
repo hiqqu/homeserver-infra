@@ -1,0 +1,21 @@
+# Private Schlüssel und Identitäten
+*.key
+*.pem
+id_*
+!id_*.pub
+key.txt
+*age-key.txt
+
+# Unverschlüsselte Umgebungs- und Secret-Dateien
+.env
+*.env
+!*.env.example
+
+# Backup- und Temporärdateien
+*.swp
+*~
+.DS_Store
+*.bak
+
+# Logdateien
+*.log
